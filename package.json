@@ -1,0 +1,19 @@
+{
+  "name": "ei-57ps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yingkaixiang/ei-57ps.git"
+  },
+  "author": "应开翔",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yingkaixiang/ei-57ps/issues"
+  },
+  "homepage": "https://github.com/Yingkaixiang/ei-57ps#readme"
+}
