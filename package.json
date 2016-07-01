@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Yingkaixiang/ei-57ps/issues"
   },
-  "homepage": "https://github.com/Yingkaixiang/ei-57ps#readme"
+  "homepage": "https://github.com/Yingkaixiang/ei-57ps#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-content-includer": "0.0.7",
+    "gulp-livereload": "^3.8.1",
+    "gulp-ruby-sass": "^2.0.6"
+  }
 }
