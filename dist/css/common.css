@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* 头部 */
+header {
+  width: 100%;
+}
+header nav {
+  font-size: 18px;
+  color: #bcbec0;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+header nav .logo {
+  width: 60px;
+  height: 30px;
+  background-color: red;
+  margin-right: 55px;
+  align-self: center;
+}
+header nav ul {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+header nav ul li {
+  padding: 20px 40px;
+}
+header nav ul li.cur {
+  background-color: #f1f2f2;
+}
+header .banner {
+  width: 100%;
+  height: 480px;
+  background-color: #73b4b6;
+}
+
+/* 主题 */
+.main {
+  width: 1280px;
+  margin: 0 auto;
+}

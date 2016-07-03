@@ -1,0 +1,14 @@
+html, body, header, footer, section, div, nav, ul, li, h1, h2, h3, h4, h5{
+	padding:0;
+	margin:0;
+}
+
+html, body{
+	font-family: '微软雅黑','Helvetica Neue',sans-serif,SimHei;
+	-webkit-font-smoothing:antialiased;
+	background-color:#fff;
+}
+
+ul, li{
+	list-style:none;
+}
