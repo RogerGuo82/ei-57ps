@@ -40,34 +40,6 @@
   margin-left: 5px;
 }
 
-.cou3 {
-  width: 100%;
-  border-top: 15px solid #fafafa;
-  border-bottom: 15px solid #fafafa;
-  display: flex;
-  color: #a7a9ac;
-  font-size: 20px;
-}
-
-.feature {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 56px 0 78px 0;
-  border-right: 1px solid #fafafa;
-}
-.feature .feature-icon {
-  width: 90px;
-  height: 90px;
-  background-color: #73b4b6;
-  margin-bottom: 28px;
-}
-
-.feature:last-child {
-  border-right: 0;
-}
-
 .cou4 {
   width: 100%;
   display: flex;

@@ -1,0 +1,39 @@
+.work-desc {
+  color: #a7a9ac;
+  font-size: 22px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.work-slideshow {
+  width: 100%;
+  height: 200px;
+  background-color: red;
+  margin-top: 60px;
+}
+
+.work-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.work-list .work-list-item {
+  width: 235px;
+  height: 235px;
+  border: 2px solid #efefef;
+  margin: 20px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work-list .work-list-item .work-list-item-img {
+  width: 205px;
+  height: 164px;
+  background-color: #e6e7e8;
+}
+
+.feature {
+  margin-top: 40px;
+}
