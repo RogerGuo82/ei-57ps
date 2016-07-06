@@ -18,7 +18,9 @@
   "homepage": "https://github.com/Yingkaixiang/ei-57ps#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
     "gulp-content-includer": "0.0.7",
+    "gulp-imagemin": "^3.0.1",
     "gulp-livereload": "^3.8.1",
     "gulp-ruby-sass": "^2.0.6"
   }

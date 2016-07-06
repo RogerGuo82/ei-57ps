@@ -4,27 +4,31 @@
 		<title>首页</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="./css/reset.css">
-		<link rel="stylesheet" type="text/css" href="./css/common.css">
+		<link rel="stylesheet" type="text/css" href="./css/components.css">
 		<link rel="stylesheet" type="text/css" href="./css/index.css">
 	</head>
 	<body>
+		<!-- 头部 -->
 		<header>
-			<nav>
-				<div class="logo"></div>
-				<ul>
-					<li class="cur">首页</li>
-					<li>热门课程</li>
-					<li>师资团队</li>
-					<li>学员作品</li>
-					<li>活动资讯</li>
-					<li>摄影旅游</li>
-				</ul>
-			</nav>
-			<div class="banner"></div>
-		</header>
+  <nav>
+    <a href="./" class="logo"></a>
+    <ul>
+      <li class="cur"><a href="./">首页</a></li>
+      <li><a href="./hot.html">热门课程</a></li>
+      <li><a href="./team.html">师资团队</a></li>
+      <li><a href="./works.html">学员作品</a></li>
+      <li><a href="./activity">活动资讯</a></li>
+      <li><a href="javascript:alert('暂未开发！');">摄影旅游</a></li>
+    </ul>
+  </nav>
+  <div class="banner"></div>
+</header>
+		<!-- 主体 -->
 		<div class="main">
 			<section class="cou1">
-				<div class="cou1-img"></div>
+				<div class="cou1-img">
+					<img src="" /> 
+				</div>
 				<div class="course-list">
 					<div class="course">
 						<h5>摄影初级班</h5>
@@ -60,29 +64,32 @@
 						</p>
 					</div>
 				</div>
-				<div class="more">更多课程<span>》</span></div>
+				<a href="./hot.html" class="more">更多课程<span>》</span></a>
 			</section>
 			<section>
 				
 			</section>
+
+			<!-- 特色 -->
 			<section class="feature">
-				<div class="feature-main">
+				<div class="feature-item">
 					<div class="feature-icon"></div>
 					超快的服务响应
 				</div>
-				<div class="feature">
+				<div class="feature-item">
 					<div class="feature-icon"></div>
 					超牛的课程安排
 					</div>
-				<div class="feature">
+				<div class="feature-item">
 					<div class="feature-icon"></div>
 					超强的性价优势
 					</div>
-				<div class="feature">
+				<div class="feature-item">
 					<div class="feature-icon"></div>
 					超赞的学员反馈
 					</div>
 			</section>
+			
 			<section class="cou4">
 				<div class="desc-img"></div>
 				<div class="desc-text">

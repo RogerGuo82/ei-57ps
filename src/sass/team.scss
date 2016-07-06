@@ -1,0 +1,113 @@
+.team-list{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:60px;
+
+  .team-item{
+    width: 930px;
+    margin-bottom: 24px;
+    background-color: #f5f7f7;
+    display: flex;
+
+    .team-item-img{
+      width: 270px;
+      height: 270px;
+      background-color: #73b4b6;
+      border-radius: 50%;
+      overflow: hidden;
+      border:2px solid #fff;
+      margin:26px 40px;
+    }
+
+    .team-item-info{
+      flex:1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      p{
+        color: #a7a9ac;
+        font-size: 18px;
+      }
+
+      p:first-child{
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.team-hl{
+  width: 100%;
+  background-color:#f1f2f2;
+  margin-top:40px;
+
+  h5{
+    color: #ff0619;
+    font-size: 24px;
+    margin: 30px 0 0 50px;
+  }
+
+  .team-hl-main{
+    width:100%;
+    
+    display:-webkit-flex;
+    
+    display:-ms-flexbox;
+    
+    display:flex;
+    -webkit-flex-wrap:wrap;
+        -ms-flex-wrap:wrap;
+            flex-wrap:wrap;
+    -webkit-justify-content:space-around;
+        -ms-flex-pack:distribute;
+            justify-content:space-around;
+
+    .team-hl-item{
+      width: 370px;
+      height: 260px;
+      background-color: #fff;
+      box-shadow:4px 4px 10px #ccc;
+      border:1px solid #eaeaea;
+      margin: 30px 0;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-align-items:center;
+          -ms-flex-align:center;
+              align-items:center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+
+      .team-hl-item-img{
+        width: 285px;
+        height: 170px;
+        background-color: red;
+        border:1px solid #979696;
+      }
+
+      p{
+        width: 285px;
+        color: #bcbec0;
+        font-size: 22px;
+        margin-top: 20px;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+
+        span{
+          color: #56b9fc;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
